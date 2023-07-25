@@ -1,0 +1,24 @@
+.container {
+    max-width: 95vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.squares:hover {
+    background-color: aqua;
+    transition: 0s;
+}
+
+.squares {
+    background-color: white;
+    transition: 3s;
+}
